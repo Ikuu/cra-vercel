@@ -1,4 +1,4 @@
-name: deploy wip website
+name: deploy main website
 on:
   push:
     branches:
