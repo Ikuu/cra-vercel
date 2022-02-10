@@ -17,3 +17,5 @@ jobs:
           github-token: ${{ secrets.GH_VERCEL_TOKEN }} #Optional
           vercel-org-id: ${{ secrets.ORG_ID}} #Required
           vercel-project-id: ${{ secrets.PROJECT_ID}} #Required
+          alias-domains: | #Optional
+            pr-{{PR_NUMBER}}-ikuu.vercel.app
